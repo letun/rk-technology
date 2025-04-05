@@ -1,0 +1,29 @@
+.cardBody {
+    display: flex;
+}
+
+.cardBody_label {
+    display: flex;
+    margin-bottom: 8px;
+
+    & span {
+        margin-left: 8px;
+    }
+}
+
+.cardBody_button {
+    padding: 8px 16px;
+    // color: var(--button-color);
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    border: var(--button-border-width) solid var(--button-border-color);
+    border-radius: var(--button-border-radius);
+    background-color: var(--c-light);
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+        border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
