@@ -47,7 +47,7 @@ export const Card: React.FC = () => {
                     />
                     <span>
                         {isDisabled
-                            ? `Card disabled for ${countdown} seconds...`
+                            ? `Checkbox disabled for ${countdown} seconds...`
                             : "Enabled"}
                     </span>
                 </label>
